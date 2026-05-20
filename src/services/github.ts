@@ -1,6 +1,6 @@
 import type { GithubData, LanguageStat } from "../types/github";
 
-const GITHUB_GRAPHQL = process.env.GITHUB_GRAPHQL_ENDPOINT;
+const GITHUB_GRAPHQL = import.meta.env.VITE_GITHUB_GRAPHQL_ENDPOINT;
 
 const QUERY = `
   query($username: String!) {

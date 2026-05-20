@@ -8,10 +8,10 @@ interface GithubWidgetProps {
   token?: string;
 }
 
-const GITHUB_TOKEN = process.env.GITHUB_GRAPHQL_TOKEN;
+
 
 export default function GithubWidget({ username, token }: GithubWidgetProps) {
-  const { data, loading, error } = useGithubData(username, GITHUB_TOKEN);
+  const { data, loading, error } = useGithubData(username, token);
 
   if (loading) return <div className="gw-root gw-root--loading">Loading…</div>;
   if (error) return <div className="gw-root gw-root--error">Error: {error}</div>;
