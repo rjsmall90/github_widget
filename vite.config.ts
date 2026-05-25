@@ -19,4 +19,5 @@ export default defineConfig({
     minify: false,
     cssCodeSplit: false,
   },
+  base: "https://github-widget.app/",
 });
