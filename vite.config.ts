@@ -19,5 +19,5 @@ export default defineConfig({
     minify: false,
     cssCodeSplit: false,
   },
-  base: "https://github-widget.app/",
+  base: "https://github-widget-one.vercel.app/",
 });
