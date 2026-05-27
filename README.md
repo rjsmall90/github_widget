@@ -4,6 +4,8 @@ An embeddable micro-frontend that renders a GitHub user's profile stats — pinn
 
 ---
 
+**Live demo:** [github-widget-one.vercel.app](https://github-widget-one.vercel.app/)
+
 ## Blog
 
 > https://medium.com/@rjsmall90/2f1a7bc73591
