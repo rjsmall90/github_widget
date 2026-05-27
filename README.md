@@ -6,8 +6,6 @@ An embeddable micro-frontend that renders a GitHub user's profile stats — pinn
 
 ## Blog
 
-> _Link to Medium post coming soon_
->
 > https://medium.com/@rjsmall90/2f1a7bc73591
 
 ---
